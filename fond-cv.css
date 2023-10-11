@@ -1,0 +1,61 @@
+/* Styles globaux */
+body {
+   /* Utilisation de deux couleurs de fond */
+
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to right, #14131464, #424244); /* Dégradé de couleur de gauche à droite */
+    
+}
+
+
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #00353f;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour en-tête */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Styles pour sections */
+.section {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.section-content {
+    margin-top: 10px;
+}
+
+/* Styles pour liste de compétences */
+.skills {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    margin-bottom: 5px;
+}
+
+/* Ajoutez d'autres styles selon vos besoins pour d'autres sections */
+
+/* Styles pour pied de page */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    
+}
