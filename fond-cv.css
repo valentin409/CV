@@ -1,28 +1,18 @@
 /* Styles globaux */
 body {
-   /* Utilisation de deux couleurs de fond */
-
-    width: 200px;
-    height: 200px;
-    background: linear-gradient(to right, #14131464, #424244); /* Dégradé de couleur de gauche à droite */
-    
-}
-
-
-
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #00353f;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
 }
 
 /* Styles pour en-tête */
 h1 {
     color: #333;
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /* Styles pour sections */
@@ -33,6 +23,7 @@ h1 {
 .section-title {
     font-weight: bold;
     font-size: 1.2em;
+    margin-bottom: 10px;
 }
 
 .section-content {
@@ -49,13 +40,61 @@ h1 {
     margin-bottom: 5px;
 }
 
-/* Ajoutez d'autres styles selon vos besoins pour d'autres sections */
-
 /* Styles pour pied de page */
 footer {
     text-align: center;
     padding: 10px 0;
     background-color: #333;
     color: #fff;
+}
+
+/* Styles pour container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour image */
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styles pour figcaption */
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* Styles pour positionnement */
+.position {
+    position: relative;
+}
+
+.position-top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.position-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
     
 }
+
+
+/* Pour la mis en page sur un téléphone*/
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
