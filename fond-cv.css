@@ -98,3 +98,8 @@ figcaption {
 .selector-for-some-widget {
     box-sizing: content-box;
   }
+
+.encadrement {
+    border: 50px solid black;
+    padding: 1000px;
+}
